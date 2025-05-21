@@ -1,0 +1,87 @@
+/* Custom CSS for the fraud detection dashboard */
+
+/* Main container */
+.main {
+    background-color: #0e1117;
+    color: #ffffff;
+}
+
+/* Cards */
+.stCard {
+    background-color: #1e2227;
+    border: 2px solid #00ff00;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px 0;
+}
+
+/* Alerts */
+.fraud-alert {
+    color: #ff0000;
+    font-weight: bold;
+    font-size: 24px;
+    animation: blink 1s linear infinite;
+}
+
+.safe-alert {
+    color: #00ff00;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+/* Metrics */
+.metric-container {
+    background-color: #1e2227;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+.metric-label {
+    color: #8b949e;
+    font-size: 14px;
+}
+
+.metric-value {
+    color: #58a6ff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Animations */
+@keyframes blink {
+    50% { opacity: 0.5; }
+}
+
+/* Tables */
+.dataframe {
+    font-size: 12px;
+    border-collapse: collapse;
+    margin: 25px 0;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.dataframe thead tr {
+    background-color: #58a6ff;
+    color: #ffffff;
+    text-align: left;
+}
+
+.dataframe th,
+.dataframe td {
+    padding: 12px 15px;
+}
+
+.dataframe tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.dataframe tbody tr:nth-of-type(even) {
+    background-color: #1e2227;
+}
+
+.dataframe tbody tr:last-of-type {
+    border-bottom: 2px solid #58a6ff;
+}

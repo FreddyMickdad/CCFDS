@@ -1,0 +1,10 @@
+# Project dependencies
+joblib==1.2.0
+matplotlib==3.7.1
+numpy==1.24.3
+opendatasets==0.1.22
+pandas==2.0.1
+scikit-learn==1.2.2
+streamlit>=1.32.0
+plotly>=5.18.0
+tqdm>=4.66.0
